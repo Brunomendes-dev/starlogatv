@@ -1,0 +1,8 @@
+StarLog Almoxarifado - Aula 30 (CRUD com DAO + SQLite)
+
+Conteudo: codigo-fonte em src/ (Produto, ProdutoDAO, ProdutoDAOSqlite, ConexaoFactory, Main).
+O driver sqlite-jdbc-3.42.0.1.jar foi omitido por causa do limite de tamanho de envio.
+Download: https://github.com/xerial/sqlite-jdbc/releases/tag/3.42.0.1 (colocar em lib/)
+
+  javac -encoding UTF-8 -cp "lib/*" -d out $(find src -name "*.java")
+  java -cp "out;lib/*" br.com.starlog.Main
